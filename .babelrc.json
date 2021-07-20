@@ -1,0 +1,17 @@
+{
+  "presets": [
+    "@babel/react"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        ["@babel/plugin-proposal-object-rest-spread"]
+      ]
+    },
+    "production": {
+      "plugins": [
+        ["@babel/plugin-proposal-object-rest-spread"]
+      ]
+    }
+  }
+}
